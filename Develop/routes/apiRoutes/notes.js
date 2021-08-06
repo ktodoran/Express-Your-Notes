@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const {  findNoteById, createNewNote, deleteSelectedNote } = require('../../lib/notes');
-const { notes } = require('../../db/notes.json');
+const { notes } = require('../../db/db.json');
 
 //return existing notes list
 router.get('/notes', (req, res) =>{
