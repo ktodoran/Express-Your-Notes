@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const {  findNoteById, createNewNote, deleteSelectedNote } = require('../../lib/notes');
+const {  locateNoteById, createBrandNewNote, deleteChosenNote } = require('../../lib/notes');
 const { notes } = require('../../db/notes.json');
 
 //return existing notes list
@@ -15,17 +15,17 @@ router.post('/notes', (req, res) => {
     //the save button doesn't appear until both required form sections are filled
     
     //create new note
-    const note = createNewNote(req.body, notes);
+    const note = createBrandNewNote(req.body, notes);
     res.json(note);
 
 });
 
 router.delete('/notes/:id', (req, res) => {
     //make sure the note exists before trying to delete
-    let found = findNoteById(req.params.id, notes);
+    let found = locateNoteById(req.params.id, notes);
     //if does exist, delete and return the remaining notes
     if(found){
-        let newArr = deleteSelectedNote(found, notes);
+        let newArr = deleteChosenNote(found, notes);
         res.json(newArr);
     }
     else{

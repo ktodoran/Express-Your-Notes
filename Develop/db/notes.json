@@ -1,9 +1,24 @@
 {
   "notes": [
     {
-      "title": "You're homework is late!",
-      "text": "You need to complete your missing assignments!",
+      "title": "What Is Today's Schedule?",
+      "text": "Well hello there!\n\nToday's crazy schedule is going to be busy!",
       "id": "0"
+    },
+    {
+      "title": "Monday",
+      "text": "Start Module 19",
+      "id": "1"
+    },
+    {
+      "title": "Tuesday!",
+      "text": "Work on homework all night, and get caught up on everything!",
+      "id": "2"
+    },
+    {
+      "title": "Thursday!",
+      "text": "Oh no! Wednesday got deleted!",
+      "id": "4"
     }
   ]
 }
