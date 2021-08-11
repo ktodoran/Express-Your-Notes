@@ -30,17 +30,17 @@ To utilize the application you may navigate to [https://ant-note-taker.herokuapp
 ### Screenshots
 
 #### Home
-<img src="./assets/images/ant-note-taker-home.png" alt="note taker home" />
+<img src="./assets/images/ProjectHomePage.jpg" alt="HomePage of Express Your Notes" />
 
 #### Notes Page
-<img src="./assets/images/ant-note-taker-notes.png" alt="note taker notes page" />
+<img src="./assets/images/InsideProject.jpg" alt="Notes Page of Express Your Notes" />
 
 ## Questions
 If you have questions about this project, please contact me via one of the methods listed below:
 
-Email: andrew@tellitocci.com
+Email: ktodoran@gmail.com
 
-GitHub: [antellitocci](https://github.com/antellitocci)
+GitHub: [ktodoran](https://github.com/ktodoran)
 
 ## Additional Thoughts
 
@@ -53,7 +53,7 @@ For future development, we would consider:
         
 ### MIT
         
-### Copyright 2021 Andrew Tellitocci
+### Copyright 2021 Kyle Todoran
         
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
