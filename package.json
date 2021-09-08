@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ktodoran/Express-Your-Notes/issues"
   },
-  "homepage": "https://github.com/ktodoran/Express-Your-Notes#readme"
+  "homepage": "https://github.com/ktodoran/Express-Your-Notes#readme",
+  "dependencies": {
+    "uniqid": "^5.4.0"
+  }
 }

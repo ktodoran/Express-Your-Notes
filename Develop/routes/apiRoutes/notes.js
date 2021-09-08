@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const {  locateNoteById, createBrandNewNote, deleteChosenNote } = require('../../lib/notes');
 const { notes } = require('../../db/db.json');
+const uniqid = require('uniqid'); 
 
 //return existing notes list
 router.get('/notes', (req, res) =>{
@@ -15,8 +16,12 @@ router.post('/notes', (req, res) => {
     
     //Create a new note
     const note = createBrandNewNote(req.body, notes);
-    res.json(note);
-
+        if(createBrandNewNote) {
+            res.json(uniqid);
+        } else {
+            return;
+        }
+        res.json(note);
 });
 
 router.delete('/notes/:id', (req, res) => {
@@ -28,7 +33,7 @@ router.delete('/notes/:id', (req, res) => {
         res.json(newArr);
     }
     else{
-        window.alert(`Could not delete note. Please ensure note exists and try again.`);
+        window.alert(`Note could not be deleted. Please ensure note exists first.`);
     }
 });
 
