@@ -1,4 +1,7 @@
 # Express Your Notes (Note Taker Application)
+
+> **Archived coursework (2021).** Built during Butler University's full-stack boot camp. Kept as a record of where I started; no longer maintained. The Heroku deployment linked below is no longer live.
+
         
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
       
